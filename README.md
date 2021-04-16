@@ -1,3 +1,10 @@
+This is a project forked from [nashwaan/xml-js](https://github.com/nashwaan/xml-js). The whole project is almost the same as the original project,
+except a subtle difference. For now, the only modification is introducing an option `spaceBeforeSelfClosingTag` for converting js/json to xml (in cli
+mode is `--tag-space`, see below) and allowing spaces included before the slash of the self-closing tag. All new
+features are provided with the relative unit tests. If you work well with the original project, it should be no problem for switching to this.
+What's more, we will try to follow up any commits appending to the master branch of the original project.
+___
+
 ![XML ⇔ JS/JSON](http://nashwaan.github.io/xml-js/images/logo.svg)
 
 Convert XML text to Javascript object / JSON text (and vice versa).
