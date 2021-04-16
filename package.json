@@ -1,6 +1,6 @@
 {
   "name": "@reginaldlee/xml-js",
-  "version": "1.7.11",
+  "version": "1.7.12",
   "description": "A convertor between XML text and Javascript object / JSON text.",
   "repository": {
     "type": "git",
@@ -41,7 +41,9 @@
     "parsing"
   ],
   "main": "lib/index.js",
-  "bin": "./bin/cli.js",
+  "bin": {
+    "xml-js": "./bin/cli.js"
+  },
   "types": "./types/index.d.ts",
   "scripts": {
     "build": "webpack",

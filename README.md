@@ -96,13 +96,13 @@ Tip: You can reduce the output size by using shorter [key names](#options-for-ch
 ## Installation
 
 ```
-npm install --save xml-js
+npm install --save @reginaldlee/xml-js
 ```
 
 You can also install it globally to use it as a command line convertor (see [Command Line](#command-line)).
 
 ```
-npm install --global xml-js
+npm install --global @reginaldlee/xml-js
 ```
 
 ## Quick start
